@@ -62,6 +62,9 @@
   .home-content {
     max-width: 590px;
   }
+  h3{
+    color: white;;
+  }
   
   .home h1 {
     font-size: 42px;
@@ -97,8 +100,13 @@
   /* About section styles */
 .about {
     padding: 80px 20px;
-    background-color: #13298b;
+    background-image: url("https://img.freepik.com/free-photo/circuit-code-blue-screen-icon_53876-167105.jpg");
     color: white;
+    background-repeat: no-repeat;
+    background: fixed;
+
+ 
+    
   }
   
   .about-content {
@@ -138,6 +146,62 @@
     transition: background-color 0.3s ease;
   }
   
+  
   .m-button:hover {
     background-color: #0056b3;
+  }
+  /* Services section styles */
+.services {
+    padding: 80px 20px;
+    background-color: white;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+  }
+  
+  .service-card {
+    background-color: rgb(19, 19, 117);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;
+    flex: 1 0 300px;
+  }
+  
+  .service-card-icon {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .service-card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card-description {
+    font-size: 16px;
+    color:white;
+    margin-bottom: 20px;
+  }
+  
+  .service-card-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .service-card-link:hover {
+    color: #0056b3;
   }
