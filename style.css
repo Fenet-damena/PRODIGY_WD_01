@@ -1,11 +1,4 @@
-body{
-    background-image: url("https://media.istockphoto.com/id/1207217852/vector/programming-testing-app-on-different-devices-creation-software-and-coding-internet-pages-for.jpg?s=612x612&w=0&k=20&c=84TPoTRyO589B5rh1WvW0EQDbbPN_0ITkMsAO5ENz2g=");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
 
-}
 .nav-menu {
     position: fixed;
     top: 0;
@@ -39,6 +32,7 @@ body{
   .nav-menu a:hover {
     color: #ccc;
   }
+
   .nav-menu.scrolled {
     background-color: #555;
   }
@@ -49,4 +43,54 @@ body{
   
   .nav-menu.scrolled a:hover {
     color: #fff;
+  }
+
+  .home {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+    background-image: url("https://t3.ftcdn.net/jpg/04/57/93/78/360_F_457937822_6guyVRMr4cCdCr36zPg7Er7WRaf0FbSn.jpg");
+
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .home-content {
+    max-width: 590px;
+  }
+  
+  .home h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+  }
+  
+  .home h2 {
+    font-size: px;
+    margin-bottom: 30px;
+  }
+  
+  .home p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .m-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .m-button:hover {
+    background-color: #0056b3;
   }
