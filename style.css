@@ -99,11 +99,15 @@
   }
   /* About section styles */
 .about {
+    margin-top: 100px;
     padding: 80px 20px;
-    background-image: url("https://img.freepik.com/free-photo/circuit-code-blue-screen-icon_53876-167105.jpg");
+    background-color: rgb(22, 22, 77);
     color: white;
     background-repeat: no-repeat;
-    background: fixed;
+    background-size: cover;
+    
+
+ 
 
  
     
@@ -171,7 +175,7 @@
   }
   
   .service-card {
-    background-color: rgb(19, 19, 117);
+    background-color:  rgb(22, 22, 77);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 40px;
