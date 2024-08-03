@@ -3,29 +3,40 @@
 <head>
   <title>Interactive Navigation Menu</title>
   <link rel="stylesheet" href="style.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    html {
+      scroll-behavior: smooth; 
+    }
+  </style>
 </head>
 <body>
   <header>
     <nav class="nav-menu">
+        <strong style="font-style:normal; font-size: 30px; font-weight: 700; font-family: 'Dancing Script', cursive; color: rgb(18, 18, 219);">TC</strong>
+          <span>Technovate Solutions</span>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Our Services</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Our Services</a></li>
+        <li><a href="#contact">Contact Us</a></li>
       </ul>
     </nav>
   </header>
 
-  <div class="home">
+  <div id="home" class="home">
     <div class="home-content">
       <h1>Welcome to Technovate Solutions</h1>
       <h2>Elevating your business through intelligent technology!</h2>
-      <p>At Technovate Solutions, we are dedicated to empowering businesses like yours with cutting-edge software solutions that drive innovation and growth. Our team of experts leverages the latest technologies to craft tailored solutions that seamlessly integrate with your operations, streamlining processes and unlocking new opportunities.</p>
       <button class="m-button">Learn More</button>
     </div>
   </div>
 
-  <div class="about">
+  <div id="about" class="about">
     <div class="about-content">
       <div class="about-image">
       </div>
@@ -33,12 +44,12 @@
         <h2>About Technovate Solutions</h2>
         <p>Technovate Solutions is a leading software development company dedicated to empowering businesses with cutting-edge technology solutions. Our team of experienced developers and designers are passionate about creating tailor-made software that transforms the way our clients operate and succeed.</p>
         <p>Since our inception, we have partnered with a wide range of businesses across diverse industries, helping them streamline their processes, enhance customer experiences, and drive innovation. Our commitment to excellence, coupled with our deep expertise in the latest technologies, enables us to deliver transformative solutions that unlock new opportunities for growth and profitability.</p>
-        <button class="m-button">Learn More</button>
+        <button class="m-button">More About Us</button>
       </div>
     </div>
   </div>
 
-  <div class="services">
+  <div id="services" class="services">
     <h2 class="section-title">Our Services</h2>
     <div class="service-cards">
       <div class="service-card">
@@ -68,7 +79,7 @@
     </div>
   </div>
 
-  <div class="contact">
+  <div id="contact" class="contact">
     <h2 class="section-title">Get in Touch</h2>
     <div class="contact-form">
       <form>
@@ -84,28 +95,27 @@
           <label for="message">Message</label>
           <textarea id="message" name="message" required></textarea>
         </div>
-        <button type="submit" class="m-button">Submit</button>
+        <button type="submit"  style="background-color: blue; color: white;" class="m-button">Submit</button>
       </form>
     </div>
   </div>
 
   <footer>
     <div class="footer-content">
-        <div class="footer-left">
-            <p>&copy; 2024 Technovate Solutions. All rights reserved.</p>
-        </div>
-        <div class="footer-center">
-            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
-        </div>
-        <div class="footer-right">
-            <a href="https://facebook.com" target="_blank" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com" target="_blank" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://linkedin.com" target="_blank" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://instagram.com" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
-        </div>
+      <div class="footer-left">
+        <p>&copy; 2024 Technovate Solutions. All rights reserved.</p>
+      </div>
+      <div class="footer-center">
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+      </div>
+      <div class="footer-right">
+        <a href="https://facebook.com" target="_blank" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com" target="_blank" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://linkedin.com" target="_blank" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://instagram.com" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+      </div>
     </div>
-</footer>
-
+  </footer>
 
   <script src="script.js"></script>
 </body>
