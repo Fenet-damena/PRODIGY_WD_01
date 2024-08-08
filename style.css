@@ -1,4 +1,3 @@
-/* Basic Reset */
 body {
     margin: 0;
     padding: 0;
@@ -11,7 +10,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #333; /* Default background color */
+    background-color: #333;
     color: #fff;
     padding: 10px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -39,20 +38,20 @@ body {
   }
   
   .nav-menu .logo img {
-    height: 40px; /* Ensure the height is set to 40px */
-    width: 40px;  /* Ensure the width is set to 40px */
+    height: 40px; 
+    width: 40px;  
     margin-bottom: 0;
-    border-radius: 50%; /* Makes the image circular */
+    border-radius: 50%; 
   }
   
   .nav-menu .logo span {
-    font-size: 18px; /* Font size for the company name */
-    font-weight: bold; /* Make the company name bold */
+    font-size: 18px; 
+    font-weight: bold;
     margin-bottom: 0;
   }
   
   .nav-menu a {
-    color: #fff; /* Default text color */
+    color: #fff;
     text-decoration: none;
     padding: 10px 15px;
     font-size: 16px;
@@ -60,13 +59,6 @@ body {
     transition: color 0.3s ease, background-color 0.3s ease;
   }
   
-  /* Rest of the CSS remains unchanged */
-  
-  
-
-
-
-
   .home {
     display: flex;
     justify-content: left;
@@ -130,15 +122,7 @@ body {
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
-   
-    
-
- 
-
- 
-    
-  }
-  
+   }
   .about-content {
     display: flex;
     justify-content: center;
@@ -146,9 +130,6 @@ body {
     
     margin: 0 auto;
   }
-  
- 
-  
   .about-text {
     flex: 1;
   }
@@ -358,7 +339,6 @@ body {
         padding: 8px 20px; 
 }
     }}
-  /* Footer */
 footer {
     background-color: #333;
     color: #fff;
@@ -373,7 +353,7 @@ footer {
     width: 100%;
 }
 
-/* Footer content container */
+
 .footer-content {
     display: flex;
     justify-content: space-between;
@@ -384,34 +364,19 @@ footer {
     box-sizing: border-box;
 }
 
-/* Footer left section */
 .footer-left {
     flex: 1;
 }
 
-/* Footer center section */
 .footer-center {
     flex: 1;
 }
 
-/* Footer right section */
 .footer-right {
     flex: 1;
     display: flex;
     justify-content: center;
-    gap: 15px; /* Spacing between social icons */
-}
-
-/* Footer links */
-.footer-center a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 14px;
-}
-
-.footer-center a:hover {
-    text-decoration: underline;
+    gap: 15px; 
 }
 
 /* Social media icons */
@@ -423,7 +388,7 @@ footer {
 }
 
 .social-icon:hover {
-    color: #007bff; /* Color on hover */
+    color: #007bff; 
 }
 
 .social-icon.facebook:hover {
@@ -435,14 +400,21 @@ footer {
 }
 
 .social-icon.linkedin:hover {
-    color: #0077b5;
+    color: #012335;
 }
 
 .social-icon.instagram:hover {
     color: #e4405f;
 }
 
-/* Font Awesome icons */
 .fab {
-    font-family: 'Font Awesome 5 Brands'; /* Ensure Font Awesome is used for brand icons */
+    font-family: 'Font Awesome 5 Brands'; 
+}
+
+.nav-menu.scrolled {
+  background-color: #4c4e4e;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.nav-menu li a.hovered {
+  color: #0077b6;
 }
