@@ -22,6 +22,6 @@ Created an interactive navigation menu for my internship at Prodigy InfoTech. Ke
 - Considering accessibility for keyboard and contrast
 
 # Access
-1. Clone repository: `https://github.com/Fenet-damena/navigation-menu.git`
+1. Clone repository: https://github.com/Fenet-damena/PRODIGY_WD_01.git
 2. Open `index.html` in browser
 3. Also deployed at:  https://fenet-damena.github.io/PRODIGY_WD_01/"
